@@ -1,8 +1,21 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+  margin: 0;
+  padding: 0;
+ 
+  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDM2NzA2MDIzMGNkZDQxZTEzMGFiMDBkY2I3ODQxYWM1ZmIxZDQyNSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/u7D5EyS2EFlpC/giphy.gif");
+  background-attachment: fixed;
+  background-size: cover;
+  
+  
+}
+
+.giphy-embed{
+  width:100%;
+  height:0;
+  padding-bottom:132%;
+  position:relative;
+
 }
 
 .logo {
@@ -10,6 +23,7 @@
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+  background-image: url("https://giphy.com/embed/Nc2slkPLPdpmWeCUZc" );
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
