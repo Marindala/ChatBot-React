@@ -34,8 +34,9 @@ export default class Data extends Component {
                     steps={[
                         {
                             id: "1",
-                            message: "Hola!! Bienvenida/o a Jidú",
-                            trigger: "2"
+                            message: "Hola!! Bienvenida/o a Jidú, Tú nombre?",
+                            trigger: "2",
+                           /*  avatar: '../../../public/chat4.png', */ //aca puedo cambiar la imagen del bot
                         },
                         {
                             id: "2",
