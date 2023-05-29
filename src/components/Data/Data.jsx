@@ -19,6 +19,7 @@ const theme = {
     footerBgColor:'#7D3C98',
     inputColor: '#7D3C98',
     
+    
 
    
 }
@@ -36,6 +37,7 @@ export default class Data extends Component {
                             id: "1",
                             message: "Hola!! Bienvenida/o a Jidú, Tú nombre?",
                             trigger: "2",
+                        
                            /*  avatar: '../../../public/chat4.png', */ //aca puedo cambiar la imagen del bot
                         },
                         {
