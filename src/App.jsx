@@ -1,15 +1,15 @@
 import "./App.css";
-import Data from "./components/Data/Data";
-import Footer from "./components/Footer/Footer";
+import DataChat from "./components/Data/DataChat";
+import Footer from "./components/Footer/Footer"; 
 
 function App() {
   return (
     <>
       <div className="chat">
-        <Data />
+        <DataChat />
       </div>
       <div>
-        <Footer />
+        <Footer /> 
       </div>
     </>
   );
