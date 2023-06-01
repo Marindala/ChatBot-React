@@ -1,4 +1,4 @@
-import img from "../../../public/chat4.png";
+import img from "../../../public/Mi.png";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 
@@ -10,8 +10,7 @@ const Footer = () => {
         <div style={styles.column}>
           <h1 style={styles.heading}>ChatBot React Marindala</h1>
           <ul style={styles.list}>
-            <li>
-              <a
+          <a
                 href="https://www.linkedin.com/in/marina~lopez/"
                 target="_blank"
                 style={styles.link}
@@ -19,35 +18,37 @@ const Footer = () => {
               >
                 <BsLinkedin></BsLinkedin>
               </a>
-            </li>
-            <li>
+            
+           
+            
+           {/*  <li>
               <a href="#" style={styles.link}>
-                Contacto
+              
               </a>
-            </li>
+            </li> */}
             <li>
               <a style={styles.link}
                 href="https://github.com/Marindala/"
                 target="_blank"
                 rel="noreferrer noopener"
-              > Github
+              >{/*  Github */}
                 <BsGithub></BsGithub>
               </a>
             </li>
             <li></li>
           </ul>
         </div>
-        <div style={styles.column}>
+       {/*  <div style={styles.column}>
           <ul style={styles.list}>
             <li></li>
           </ul>
-        </div>
+        </div> */}
         <div style={styles.column}>
           <ul style={styles.list}></ul>
         </div>
         <div style={styles.column}>
           <img src={img} alt="Logo" style={styles.logo} />
-           <h2 style={styles.location}>Argentina</h2>
+         
         </div>
       </div>
     </footer>
@@ -89,7 +90,12 @@ const styles = {
     fontWeight: "bold",
   },
   list: {
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    textAlign: "center",
     listStyleType: "none",
+    gap: "1rem",
     margin: 0,
     padding: 0,
   },
@@ -99,8 +105,11 @@ const styles = {
     fontSize: "2.5rem",
   },
   logo: {
-    width: "80%",
+    width: "70%",
     paddingTop: "0.5rem",
     paddingLeft: 0,
   },
+  location:{
+    fontSize: "1.5rem",
+  }
 };

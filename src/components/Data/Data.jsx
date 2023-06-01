@@ -38,7 +38,7 @@ export default class Data extends Component {
                             message: "Hola!! Bienvenida/o a Jidú, Tú nombre?",
                             trigger: "2",
                         
-                           /*  avatar: '../../../public/chat4.png', */ //aca puedo cambiar la imagen del bot
+                           avatar: '../../../public/Mi.png',  //aca puedo cambiar la imagen del bot
                         },
                         {
                             id: "2",
